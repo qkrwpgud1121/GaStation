@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAR">
+
+    <TextView
+        android:id="@+id/MyLocation"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5dp"
+        android:text="현재 위치 정보"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp" />
+
+    <Spinner
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/FarSearch"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="검색"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp" />
+
+    <ListView
+        android:id="@+id/lv_farList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF" />
+
+</LinearLayout>
