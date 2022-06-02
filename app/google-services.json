@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544503818397",
+    "project_id": "gastation-484cb",
+    "storage_bucket": "gastation-484cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544503818397:android:61fd671f924df9df224c74",
+        "android_client_info": {
+          "package_name": "com.example.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544503818397-bclvscsoucuq0dqpmo58mfdacphk21o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVcAPCv8pGhD2P53G4NaTABOeCn9njUXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544503818397-bclvscsoucuq0dqpmo58mfdacphk21o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
